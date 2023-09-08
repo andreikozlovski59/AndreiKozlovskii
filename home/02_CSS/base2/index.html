@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+    .cod{
+        width: 400px;
+        height: 82px;
+        color: green;
+        background-color: black;
+        overflow: auto;
+    }
+   </style>
+</head>
+<body>
+    <!--
+        если правильно понимаю, можно сделать весь список через ol?
+    -->
+    <ul style="list-style: upper-roman; width: 350px;">
+        <li> <b>Контейнер с кодом</b>
+            <ol type="i"">
+                <li>Цвет фона: черный</li>
+                <li>Цвет текста: зеленый</li>
+                <li>Ширина: 400px</li>
+                <li>Максимальная высота контейнера: 4-е строки</li>
+                <li>Переполнение: автоматическое</li>
+            </ol>
+        </li>
+        <li> <b>Список</b>
+            <ol type="i">
+                <li>Ширина: 350px</li>
+                <li>Тип списка: римские цифры</li>
+                <li> Тип вложенного списка: римские нижний регистр цифры</li>
+            </ol>
+        </li>
+    </ul>
+    <div class="cod">
+            <code>
+             #!/usr/bin/env python<br>
+            print 'Hello. I am a python program.'<br>
+            name = raw_input("What is your name?")<br>
+            print "Hello there, " + name + "!"
+            </code>
+    </div>
+</body>
+</html>
